@@ -21,10 +21,10 @@ function mayoriaDeEdad(edad) {
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
   if ( edad >= 18 ) {
-    return 'allowed';
+    return 'Allowed';
     
   } else {
-    return 'not allowed';
+    return 'Not allowed';
   }
 }
   
@@ -35,11 +35,11 @@ function conection(status) {
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
   if ( status === 1 ) {
-    return 'online';
+    return 'Online';
   } else if ( status === 2 ) {
-    return 'away';
+    return 'Away';
   } else {
-    return 'offline';
+    return 'Offline';
   }{
     
   }
@@ -52,12 +52,12 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if ( idioma === aleman) {
+  if ( idioma === 'aleman') {
     return 'Guten Tag!';
-  } else if ( idioma === mandarin) {
+  } else if ( idioma === 'mandarin') {
     return 'Ni Hao!';
-  } else if ( idioma === ingles) {
-    return 'hello';
+  } else if ( idioma === 'ingles') {
+    return 'Hello';
   } else {
     return 'hola';
   } {
@@ -77,15 +77,15 @@ function colors(color) {
   //Usar el statement Switch.
   switch (color){
     case Blue:
-      return 'this is blue';
+      return 'This is blue';
       case red: 
-      'this is red';
+      'This is red';
       case green:
-        'this is green';
+        'This is green';
         case orange:
-          'this is orange';
+          'This is orange';
           default:
-            return 'color not foun';
+            return 'Color not foun';
   }
 }
 
@@ -93,12 +93,8 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( 10 || 5 ) {
-    return true;
-    
-  } else {
-    return false;
-  }
+  return numero === 10 || nemro === 5;
+
 }
 
 function estaEnRango(numero) {
@@ -134,7 +130,7 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
   if ( numero % 3 === 0 ) {
-    return 'fizzi'
+    return 'fizz'
   } else if ( numero % 5 === 0 ) {
     return 'buzz';
   } else if ( numero % 3&&5 === 0) {
