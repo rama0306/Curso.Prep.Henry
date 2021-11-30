@@ -57,9 +57,9 @@ function saludo(idioma) {
   } else if ( idioma === 'mandarin') {
     return 'Ni Hao!';
   } else if ( idioma === 'ingles') {
-    return 'Hello';
+    return 'Hello!';
   } else {
-    return 'hola';
+    return 'Hola!';
   } {
     
   }{
@@ -76,7 +76,7 @@ function colors(color) {
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
   switch (color){
-    case Blue:
+    case blue:
       return 'This is blue';
       case red: 
       'This is red';
@@ -93,7 +93,7 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-  return numero === 10 || nemro === 5;
+  return numero === 10 || numero === 5;
 
 }
 
@@ -101,7 +101,7 @@ function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( num < 50 && num > 20 ) {
+  if ( numero < 50 && numero > 20 ) {
     return true;
   } else {
     return false;
@@ -116,7 +116,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if ( math.floor(numero)) {
+  if ( Math.floor(numero)) {
     return true;
     
   } else {
@@ -133,7 +133,7 @@ function fizzBuzz(numero) {
     return 'fizz'
   } else if ( numero % 5 === 0 ) {
     return 'buzz';
-  } else if ( numero % 3&&5 === 0) {
+  } else if ( numero % 15 === 0) {
     return 'fizzbuzz';
   } else {
     return 'numero';
