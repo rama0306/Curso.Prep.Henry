@@ -77,13 +77,13 @@ function colors(color) {
   //Usar el statement Switch.
   switch (color){
     case "blue":
-      return "This is {blue}";
+      return "This is blue";
       case "red": 
-      "This is {red}";
+      return "This is red";
       case "green":
-        "This is {green}";
+        return "This is green";
         case "orange":
-          "This is {orange}";
+          return "This is orange";
           default:
             return "Color not found";
   }
