@@ -76,13 +76,13 @@ function colors(color) {
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
   switch (color){
-    case blue:
+    case 'blue':
       return 'This is blue';
-      case red: 
+      case 'red': 
       'This is red';
-      case green:
+      case 'green':
         'This is green';
-        case orange:
+        case 'orange':
           'This is orange';
           default:
             return 'Color not foun';
@@ -119,6 +119,8 @@ function esEntero(numero) {
   if ( Math.floor(numero)) {
     return true;
     
+  } else if ( numero === 0 ) {
+    return true;
   } else {
     return false;
   }
@@ -129,12 +131,12 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-  if ( numero % 3 === 0 ) {
-    return 'fizz'
+  if ( numero % 15 === 0 ) {
+    return 'fizzbuzz'
   } else if ( numero % 5 === 0 ) {
     return 'buzz';
-  } else if ( numero % 15 === 0) {
-    return 'fizzbuzz';
+  } else if ( numero % 3 === 0) {
+    return 'fizz';
   } else {
     return 'numero';
   }{
