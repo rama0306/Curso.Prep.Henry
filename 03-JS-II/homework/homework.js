@@ -6,15 +6,15 @@ function obtenerMayor(x, y) {
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
   if ( x > y ) {
-    retun x;
+    return x;
   } else if ( x < y ) {
     return y;
     
-  } else ( x === y) {
+  } else ( x === y) 
     return x || y;
     
   } 
-    }
+    
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
@@ -37,7 +37,7 @@ function conection(status) {
   if ( status === 1 ) {
     return 'online';
   } else if ( status === 2 ) {
-    retun 'away';
+    return 'away';
   } else {
     return 'offline';
   }{
@@ -55,7 +55,7 @@ function saludo(idioma) {
   if ( idioma === aleman) {
     return 'Guten Tag!';
   } else if ( idioma === mandarin) {
-    reurn 'Ni Hao!';
+    return 'Ni Hao!';
   } else if ( idioma === ingles) {
     return 'hello';
   } else {
@@ -94,7 +94,7 @@ function esDiezOCinco(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if ( 10 || 5 ) {
-    retun true;
+    return true;
     
   } else {
     return false;
