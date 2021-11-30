@@ -134,8 +134,9 @@ function fizzBuzz(numero) {
   
  if ( numero % 15 === 0 ) return "fizzbuzz";
  if ( numero % 5 === 0 ) return "buzz";
-}if ( numero % 3 === 0 ) return "fizz";
+if ( numero % 3 === 0 ) return "fizz";
 return "numero";
+}
 
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
